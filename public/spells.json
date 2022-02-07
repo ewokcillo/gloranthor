@@ -1,0 +1,171 @@
+{
+    "nombre": [
+        "Confusión",
+        "Encantar Recipiente",
+        "Cuchilla Afilada",
+        "Garrotazo",
+        "Comprensión",
+        "Ocultar Objeto",
+        "Controlar (entidad)",
+        "Enfriar",
+        "Coordinación",
+        "Contramagia"
+    ],
+    "type": [
+        "Espiritual",
+        "Hechiceria",
+        "Runica"
+    ],
+    "puntos": [
+        "1 Punto",
+        "2 Puntos",
+        "3 Puntos",
+        "4 Puntos",
+        "5 Puntos",
+        "1 o 3 Puntos",
+        "Variable"
+    ],
+    "distancia": [
+        "A distancia",
+        "Toque",
+        "A ti mismo",
+        "Distancia (Especial)"
+    ],
+    "duracion": [
+        "Temporal",
+        "Temporal (Especial)",
+        "Instantaneo",
+        "Permanente",
+        "Especial"
+    ],
+    "apilable": [
+        "Apilable",
+        "No apilable"
+    ],
+    "uso": [
+        "Reutilizable",
+        "Un solo uso",
+        "Activo",
+        "Pasivo",
+        "Pasivo Especial"
+    ],
+    "otro1": [
+        "Ritual",
+        "Encantamiento",
+        "Invocacion"
+    ],
+    "otro2": [
+        "Ritual",
+        "Encantamiento",
+        "Invocacion"
+    ],
+    "conjuros": [
+        {
+            "nombre": "Confusión",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Si el lanzador supera el poder del objetivo, este hechizo confunde a la víctima. No cambia sus creencias o percepciones, pero las confunde. Una víctima de Confusión no puede atacar, lanzar un hechizo ofensivo, dar la alarma, etc. Sin embargo, si es atacada, parará y se defenderá normalmente. A partir del siguiente asalto, la víctima del hechizo asume que quien lo ataca es su enemigo y extiende esa deducción a los aliados evidentes del atacante. Así, con engaños o alguna maniobra astuta, un oponente confundido podría terminar atacando a su propio grupo, mientras dure el conjuro.\nLa víctima puede gastar un asalto completo para intentar intentar deshacerse de su confusión. Eso es todo lo que la víctima puede hacer en ese asalto cuerpo a cuerpo. La víctima debe sacar una tirada superior a su INT×5 (debido a la confusión de los procesos de pensamiento, donde los objetivos más inteligentes son llevados a vertiginosos laberintos mentales mientras que los más torpes pueden simplemente actuar) o tener éxito con la habilidad Meditar. Sólo se puede intentar uno de estos dos enfoques cada asalto. Si cualquiera de las dos tácticas tiene éxito, entonces el hechizo de confusión termina, y el aventurero puede actuar normalmente en el siguiente asalto.\nSi la tirada de INT×5 resulta en un éxito especial o crítico el aventurero confundido confunde a sus amigos con sus enemigos (y viceversa) y actúa en consecuencia."
+        },
+        {
+            "nombre": "Encantar Recipiente",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "otro1": "Ritual",
+            "otro2": "Encantamiento",
+            "Description": "Este hechizo crea un objeto mágico que puede contener un espíritu u otra criatura del otro mundo. El objeto que sirve como recipiente debe ser encantado con el sacrificio de 1 punto de POD por cada tipo de característica que posea la criatura.\nUna vez creado el recipiente, la persona que lo sostenga puede puede utilizar la ligadura de espíritus para atrapar un espíritu en su interior (RuneQuest, página 249)."
+        }, 
+        {
+            "nombre": "Cuchilla Afilada",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo funciona con cualquier arma cortante o punzante. Cada punto aumenta la probabilidad de golpear en un +5% y añade +1 a su daño. El hechizo es incompatible con Cuchilla Ignea (página 114). Si también se lanza Dullblade (página 113) sobre el arma, la probabilidad de golpear mejorada de Bladesharp no se ve afectada, pero el daño adicional del arma se reduce por el segundo hechizo.\nEl daño mágico adicional puede herir a criaturas que de otro modo serían invulnerables a las armas normales. Los Hermanos Lobo Telmori, por ejemplo, no sufren daño con la tirada de daño normal del arma, pero son vulnerables a la bonificación de daño mágico. "
+        },  
+        {
+            "nombre": "Garrotazo",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo funciona con cualquier arma contundente. Cada punto aumenta la probabilidad de golpear en un +5% y añade 1 de daño. Este hechizo es incompatible con Cuchilla Ignea (página 114).\nEl daño mágico adicional puede herir a criaturas que de otro modo serían invulnerables a las armas normales. Los Hermanos Lobo Telmori, por ejemplo, no sufren daño con la tirada de daño normal del arma, pero son vulnerables a la bonificación de daño mágico. "
+        },
+        {
+            "nombre": "Comprensión",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este conjuro incrementa la agilidad mental del objetivo, sin incrementar su INT. Cada punto de Comprensión añade +5% a todas las habilidades de conocimientos del objetivo (las habilidades con 0% no se ven afectadas)."
+        },
+        {
+            "nombre": "Ocultar Objeto",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este conjuro oculta un único objeto de tamaño 2 o menos. Una cartera o una mochila podrían ser ocultadas con este conjuro. Si lo que se pretende ocultar es un arma, esta se hará visible tan pronto como se utilice para atacar o detener un ataque. El objeto no se vuelve invisible, sino que permanece oculto desviando la atención del observador."
+        },
+        {
+            "nombre": "Controlar (entidad)",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo tiene tantas variantes como tipos de espíritus, ninfas y elementales y animales comunes existen. Este hechizo somete a la entidad indicada a la voluntad del lanzador. Para usar un hechizo de Control, el lanzador debe primero reducir los puntos mágicos de su objetivo a 0 en combate espiritual, por lo que estos hechizos son usualmente utilizados por chamanes. En el siguiente asalto de combate, el usuario lanza el hechizo de control. El objetivo no puede resistirse y debe obedecer todas las órdenes recibidas por el lanzador.\nLa obligación de obedecer termina con el hechizo, incluso aunque no se hayan completado las órdenes. La entidad controlada está en una forma especial de comunicación telepática con el lanzador. Dicha comunicación mental está limitada por la línea de visión del lanzador. Para dar órdenes a una entidad controlada, el lanzador del hechizo debe formar una imagen mental de las acciones que desea que la entidad realice. Ordenar a una entidad, requiere de un asalto completo, antes de que la entidad pueda actuar."
+        },
+        {
+            "nombre": "Enfriar",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal (Especial)",
+            "uso": "Pasivo",
+            "Description": "Este hechizo debe lanzarse sobre un punto, como el hechizo Luz, y hace que el punto irradie un área de frescor en un radio de tres metros. Cada punto de hechizo lanzado hace que la temperatura dentro del radio sea 5ºC más fría que el aire circundante. Este hechizo nunca reducirá la temperatura por debajo de 0ºC."
+        },
+        {
+            "nombre": "Coordinación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo incrementa la DES del objetivo en +3. Esto reduce el MR del objetivo en -1 y aumenta todas las habilidades de Agilidad y Manipulación (incluyendo armas), y las habilidades de Sigilo en un 5%."
+        },
+        {
+            "nombre": "Contramagia",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo defensivo protege al objetivo contra cualquier otro hechizo recibido, incluyendo aquellos como Detectar Magia, Protección, e incluso Curación. Sin embargo, no interfiere con los objetos encantados previamente, como por ejemplo, una espada con Cuchilla Afilada. No funciona contra espíritus, pero puede funcionar contra los hechizos lanzados por ellos. Contramagia no impide que el objetivo puedaa No interfiere con la capacidad del objetivo de lanzar hechizos.\nSi el hechizo entrante es 2 o más puntos más débil que Contramagia, dicho hechizo es anulado y la Contramagia permanece. Si el hechizo recibido es igual o está un punto por encima o por debajo de los puntos de Contramagia, ambos hechizos desaparecen. Si el hechizo atacante es 2+ puntos más fuerte que el de Contramagia, ésta queda elimina y afecta al objetivo normalmente.\nLa Magia Rúnica funciona con doble eficacia contra Contramagia. Por lo tanto, 5 puntos de Contramagia es el mínimo necesario para protegerse contra un hechizo Rúnico de 3 puntos.\nEste hechizo es incompatible con Protección, Resplandor y Pantalla Espiritual"
+        },
+        {
+            "nombre": "Pared Oscura",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo Especial",
+            "Description": "Este hechizo crea un muro de oscuridad de diez metros cuadrados de área y diez centímetros de espesor. Si el lanzador no realiza ninguna otra acción, puede mover el centro del muro de oscuridad tres metros por asalto de combate. Las fuentes de luz dentro de la oscuridad no emiten luz ni puede ser percibida mediante el sentido de la vista. Otros sentidos, como el oído, el sonar, el olfato, etc., no se ven afectados por este muro. Una pared oscura puede tener la forma, la altura, o anchura deseada, siempre que la superficie total sea de diez metros cuadrados. El grosor siempre es de diez centímetros, y el muro siempre se remodela alrededor de su centro.\nCuando se lanza un Pared de Luz en el mismo espacio que un Pared Oscura, los efectos de ambos se neutralizan mutuamente mientras están en el mismo espacio."
+        },
+        {
+            "nombre": "Desmoralización",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo Especial",
+            "Description": ""
+        },
+    ]
+}
