@@ -1,0 +1,424 @@
+{
+    "nombre": [
+        "Confusión",
+        "Encantar Recipiente",
+        "Cuchilla Afilada",
+        "Garrotazo",
+        "Comprensión",
+        "Ocultar Objeto",
+        "Controlar (entidad)",
+        "Enfriar",
+        "Coordinación",
+        "Contramagia",
+        "Desmoralización",
+        "Detectar Enemigos",
+        "Detectar Vida",
+        "Detectar Magia",
+        "Detectar Espíritus",
+        "Detectar (Sustancia)",
+        "Detectar Trampas",
+        "Detectar No Muertos",
+        "Disipar Magia",
+        "Disrupción",
+        "Distracción",
+        "Mellar Armas",
+        "Extinguir",
+        "Rostro de lanbril",
+        "Falsa Curación",
+        "Fanatismo",
+        ""
+    ],
+    "type": [
+        "Espiritual",
+        "Hechiceria",
+        "Runica"
+    ],
+    "puntos": [
+        "1 Punto",
+        "2 Puntos",
+        "3 Puntos",
+        "4 Puntos",
+        "5 Puntos",
+        "1 o 3 Puntos",
+        "Variable"
+    ],
+    "distancia": [
+        "A distancia",
+        "Toque",
+        "A ti mismo",
+        "Distancia (Especial)"
+    ],
+    "duracion": [
+        "Temporal",
+        "Temporal (Especial)",
+        "Instantaneo",
+        "Permanente",
+        "Especial"
+    ],
+    "apilable": [
+        "Apilable",
+        "No apilable"
+    ],
+    "uso": [
+        "Reutilizable",
+        "Un solo uso",
+        "Activo",
+        "Pasivo",
+        "Pasivo Especial"
+    ],
+    "otro1": [
+        "Ritual",
+        "Encantamiento",
+        "Invocacion"
+    ],
+    "otro2": [
+        "Ritual",
+        "Encantamiento",
+        "Invocacion"
+    ],
+    "conjuros": [
+        {
+            "nombre": "Confusión",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Si el lanzador supera el poder del objetivo, este hechizo confunde a la víctima. No cambia sus creencias o percepciones, pero las confunde. Una víctima de Confusión no puede atacar, lanzar un hechizo ofensivo, dar la alarma, etc. Sin embargo, si es atacada, parará y se defenderá normalmente. A partir del siguiente asalto, la víctima del hechizo asume que quien lo ataca es su enemigo y extiende esa deducción a los aliados evidentes del atacante. Así, con engaños o alguna maniobra astuta, un oponente confundido podría terminar atacando a su propio grupo, mientras dure el conjuro.\nLa víctima puede gastar un asalto completo para intentar intentar deshacerse de su confusión. Eso es todo lo que la víctima puede hacer en ese asalto cuerpo a cuerpo. La víctima debe sacar una tirada superior a su INT×5 (debido a la confusión de los procesos de pensamiento, donde los objetivos más inteligentes son llevados a vertiginosos laberintos mentales mientras que los más torpes pueden simplemente actuar) o tener éxito con la habilidad Meditar. Sólo se puede intentar uno de estos dos enfoques cada asalto. Si cualquiera de las dos tácticas tiene éxito, entonces el hechizo de confusión termina, y el aventurero puede actuar normalmente en el siguiente asalto.\nSi la tirada de INT×5 resulta en un éxito especial o crítico el aventurero confundido confunde a sus amigos con sus enemigos (y viceversa) y actúa en consecuencia."
+        },
+        {
+            "nombre": "Encantar Recipiente",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "otro1": "Ritual",
+            "otro2": "Encantamiento",
+            "Description": "Este hechizo crea un objeto mágico que puede contener un espíritu u otra criatura del otro mundo. El objeto que sirve como recipiente debe ser encantado con el sacrificio de 1 punto de POD por cada tipo de característica que posea la criatura.\nUna vez creado el recipiente, la persona que lo sostenga puede puede utilizar la ligadura de espíritus para atrapar un espíritu en su interior (RuneQuest, página 249)."
+        }, 
+        {
+            "nombre": "Cuchilla Afilada",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo funciona con cualquier arma cortante o punzante. Cada punto aumenta la probabilidad de golpear en un +5% y añade +1 a su daño. El hechizo es incompatible con Cuchilla Ignea (página 114). Si también se lanza Dullblade (página 113) sobre el arma, la probabilidad de golpear mejorada de Bladesharp no se ve afectada, pero el daño adicional del arma se reduce por el segundo hechizo.\nEl daño mágico adicional puede herir a criaturas que de otro modo serían invulnerables a las armas normales. Los Hermanos Lobo Telmori, por ejemplo, no sufren daño con la tirada de daño normal del arma, pero son vulnerables a la bonificación de daño mágico. "
+        },  
+        {
+            "nombre": "Garrotazo",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo funciona con cualquier arma contundente. Cada punto aumenta la probabilidad de golpear en un +5% y añade 1 de daño. Este hechizo es incompatible con Cuchilla Ignea (página 114).\nEl daño mágico adicional puede herir a criaturas que de otro modo serían invulnerables a las armas normales. Los Hermanos Lobo Telmori, por ejemplo, no sufren daño con la tirada de daño normal del arma, pero son vulnerables a la bonificación de daño mágico. "
+        },
+        {
+            "nombre": "Comprensión",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este conjuro incrementa la agilidad mental del objetivo, sin incrementar su INT. Cada punto de Comprensión añade +5% a todas las habilidades de conocimientos del objetivo (las habilidades con 0% no se ven afectadas)."
+        },
+        {
+            "nombre": "Ocultar Objeto",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este conjuro oculta un único objeto de tamaño 2 o menos. Una cartera o una mochila podrían ser ocultadas con este conjuro. Si lo que se pretende ocultar es un arma, esta se hará visible tan pronto como se utilice para atacar o detener un ataque. El objeto no se vuelve invisible, sino que permanece oculto desviando la atención del observador."
+        },
+        {
+            "nombre": "Controlar (entidad)",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo tiene tantas variantes como tipos de espíritus, ninfas y elementales y animales comunes existen. Este hechizo somete a la entidad indicada a la voluntad del lanzador. Para usar un hechizo de Control, el lanzador debe primero reducir los puntos mágicos de su objetivo a 0 en combate espiritual, por lo que estos hechizos son usualmente utilizados por chamanes. En el siguiente asalto de combate, el usuario lanza el hechizo de control. El objetivo no puede resistirse y debe obedecer todas las órdenes recibidas por el lanzador.\nLa obligación de obedecer termina con el hechizo, incluso aunque no se hayan completado las órdenes. La entidad controlada está en una forma especial de comunicación telepática con el lanzador. Dicha comunicación mental está limitada por la línea de visión del lanzador. Para dar órdenes a una entidad controlada, el lanzador del hechizo debe formar una imagen mental de las acciones que desea que la entidad realice. Ordenar a una entidad, requiere de un asalto completo, antes de que la entidad pueda actuar."
+        },
+        {
+            "nombre": "Enfriar",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "Toque",
+            "duracion": "Temporal (Especial)",
+            "uso": "Pasivo",
+            "Description": "Este hechizo debe lanzarse sobre un punto, como el hechizo Luz, y hace que el punto irradie un área de frescor en un radio de tres metros. Cada punto de hechizo lanzado hace que la temperatura dentro del radio sea 5ºC más fría que el aire circundante. Este hechizo nunca reducirá la temperatura por debajo de 0ºC."
+        },
+        {
+            "nombre": "Coordinación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "Toque",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo incrementa la DES del objetivo en +3. Esto reduce el MR del objetivo en -1 y aumenta todas las habilidades de Agilidad y Manipulación (incluyendo armas), y las habilidades de Sigilo en un 5%."
+        },
+        {
+            "nombre": "Contramagia",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo defensivo protege al objetivo contra cualquier otro hechizo recibido, incluyendo aquellos como Detectar Magia, Protección, e incluso Curación. Sin embargo, no interfiere con los objetos encantados previamente, como por ejemplo, una espada con Cuchilla Afilada. No funciona contra espíritus, pero puede funcionar contra los hechizos lanzados por ellos. Contramagia no impide que el objetivo puedaa No interfiere con la capacidad del objetivo de lanzar hechizos.\nSi el hechizo entrante es 2 o más puntos más débil que Contramagia, dicho hechizo es anulado y la Contramagia permanece. Si el hechizo recibido es igual o está un punto por encima o por debajo de los puntos de Contramagia, ambos hechizos desaparecen. Si el hechizo atacante es 2+ puntos más fuerte que el de Contramagia, ésta queda elimina y afecta al objetivo normalmente.\nLa Magia Rúnica funciona con doble eficacia contra Contramagia. Por lo tanto, 5 puntos de Contramagia es el mínimo necesario para protegerse contra un hechizo Rúnico de 3 puntos.\nEste hechizo es incompatible con Protección, Resplandor y Pantalla Espiritual"
+        },
+        {
+            "nombre": "Pared Oscura",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo Especial",
+            "Description": "Este hechizo crea un muro de oscuridad de diez metros cuadrados de área y diez centímetros de espesor. Si el lanzador no realiza ninguna otra acción, puede mover el centro del muro de oscuridad tres metros por asalto de combate. Las fuentes de luz dentro de la oscuridad no emiten luz ni puede ser percibida mediante el sentido de la vista. Otros sentidos, como el oído, el sonar, el olfato, etc., no se ven afectados por este muro. Una pared oscura puede tener la forma, la altura, o anchura deseada, siempre que la superficie total sea de diez metros cuadrados. El grosor siempre es de diez centímetros, y el muro siempre se remodela alrededor de su centro.\nCuando se lanza un Pared de Luz en el mismo espacio que un Pared Oscura, los efectos de ambos se neutralizan mutuamente mientras están en el mismo espacio."
+        },
+        {
+            "nombre": "Desmoralización",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Si el lanzador supera el POD del objetivo, la víctima pierde la fe en la capacidad de su bando para ganar un combate, encontrar un tesoro, o lograr cualquier objetivo apropiado. Las víctimas pueden seguir defendiéndose normalmente, pero atacan con la mitad de sus posibilidades normales. Sólo pueden utilizar hechizos defensivos y de curación. Si Desmoralizar surte efecto antes de que comience el combate, la víctima no atacará. Enfrentada a una situación de superioridad, la víctima huirá o se rendirá,\nUn hechizo de Fanatismo anulará la Desmoralización, y viceversa. Una víctima consciente del hechizo puede utilizar todo su asalto usando la habilidad Meditar para eliminar los efectos de este hechizo."
+        },
+        {
+            "nombre": "Detectar Enemigos",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo indica al lanzador la dirección y distancia aproximada de cualquier ser que intente dañarlo, o detecta y localiza a un individuo específico en el que el lanzador se concentre. Los efectos del hechizo no pueden ser resistidos.\nEl efecto del conjuro no pueede atravesar más de un metro de espesor de sustancias densas como piedra, metal o tierra."
+        },
+        {
+            "nombre": "Detectar Vida",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Detecta la existencia de vida e indica al lanzador la dirección y distancia. El hechizo discierne entre la vida de tamaño humano (TAM 3-21), y la de gran tamaño (TAM 22+). Los seres vivos de tamaño 2 o menos no son detectados. La detección es detenida por uno o más metros de una sustancia densa como la piedra, el metal o la tierra."
+        },
+        {
+            "nombre": "Detectar Magia",
+            "type": "Espiritual",
+            "puntos": "1 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo indica la dirección y distancia aproximada de todos los encantamientos y objetos mágicos. No detecta espíritus.\nLos objetos detectados brillan visiblemente para cualquiera que pueda ver el objeto, posiblemente revelndo a sus portadores. El hechizo no distingue entre objetos mágicos o encantamientos, ni revela qué o cuán poderosos son los objetos detectados. El efecto de detección se detiene con uno o más metros de una sustancia densa, como piedra, metal o tierra."
+        },
+        {
+            "nombre": "Detectar Espíritus",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Revela al lanzador la existencia de espíritus, su dirección y distancia. El hechizo discierne entre espíritus de clase aproximadamente mortal (POD 3-21), y espíritus más grandes (POD 19+). Los espíritus con 2 POD o menos no son detectados. La detección es detenida por uno o más metros de una sustancia densa, como piedra, metal o tierra."
+        },
+        {
+            "nombre": "Detectar (Sustancia)",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo indica al lanzador la dirección y distancia aproximada a la que se encuentra la sustancia indicada.\nDicha sustancia brillará visiblemente para cualquiera que pueda verla. El hechizo no evalua la cantidad o el valor de la sustancia detectada, ya que esto es subjetivo. La detección es detenida por uno o más metros de una sustancia densa, como piedra, metal o tierra."
+        },
+        {
+            "nombre": "Detectar Trampas",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este conjuro puede detectar una trampa física, mágica o incluso una emboscada. No detectará un foso natural en el camino, una avalancha, o una sustancia venenosa, ya que no son trampas en si mismas. Este hechizo no detecta magia defensiva como Guardia. El conjuro ilumina un área de tres metros de diámetro alrededor de la trampa, el cual será visible para todo el que pueda verlo, pero no indica el lugar exacto o el tipo de trampa. La detección es detenida por uno o más metros de una sustancia densa, como piedra, metal o tierra."
+        },
+        {
+            "nombre": "Detectar No Muertos",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Detecta la existencia de criaturas no muertas, como zombies, momias o vampiros, y da una dirección y distancia aproximada desde el lanzador. El conjuro discierne entre no muertos de tamaño humano (TAM 3-21) y otros de mayor tamaño (TAM 22+). Las criaturas no muertas de TAM 2 o menos, no serán detectadas. Este hechizo no dice que clase de no muerto ha sido detectado. La detección no puede atravesar más de un metro de sustancia densa, como piedra, metal o tierra."
+        },
+        
+        {
+            "nombre": "Disipar Magia",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo elimina la magia. 1 punto anula un punto de magia espiritual, o 1 punto de intensidad de hechicería; 2 puntos elimina 1 punto de magia rúnica. Es necesario eliminar el total de puntos de un hechizo para poder destruirlo. Por lo tanto, para dispersar un hechizo de Confusión, se requieren 2 puntos de Disipar Magia, o para disipar 1 punto de Escudo, se requieren dos puntos. No se puede disipar solo una parte del conjuro.\nCuando se lanza contra un objetivo sin especificar un efecto u objeto específico, afectará primero a los conjuros defensivos, empezando por el más poderoso que pueda disipar. Sin embargo, puede lanzarse contra un hechizo específico, si el lanzador conoce de cual se trata."
+        },
+        {
+            "nombre": "Disrupción",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo, daña el cuerpo del objetivo. Si el lanzador supera el POD del objetivo, este recibe 1d3 de daño en una localización al azar. Las armaduras mágicas y físicas no protegen contra este daño."
+        },
+        {
+            "nombre": "Distracción",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo atrae la atención de un oponente hacia el lanzador del conjuro, como un objetivo más apropiado para su ataque. Cuando se lanza contra un espíritu involucrado en un Combate Espiritual, aleja automáticamente al espíritu. Deja de atacar a su objetivo actual y ataca al lanzador del conjuro en su lugar. Dicho combate comenzará en cuanto el espíritu pueda hacerlo. Atacará al lanzador hasta que este quede inconsciente o el espíritu sea derrotado. Solo se puede atacar a un espíritu a la vez."
+        },
+        {
+            "nombre": "Mellar Arnmas",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo reduce el daño causado por cualquier arma cuerpo a cuerpo o de proyectil, con o sin filo. Para que funcione correctamente, debe ser lanzado sobre el arma. Esto reducirá en un -5% las posibilidades de impactar del portador y el daño causado en -1 punto, por cada punto de Mellar Armas. Si se lanzara un segundo Mellar armas, solo surtirá efecto el hechizo con más puntos. Este hechizo también reduce el daño de armas con espíritus en su interiro, pero no funcionará contra armas naturales, tales como garras, colmillos, etc."
+        },
+        {
+            "nombre": "Extinguir",
+            "type": "Espiritual",
+            "puntos": "Variable",
+            "distancia": "A distancia",
+            "duracion": "Instantaneo",
+            "uso": "",
+            "Description": "Este hechizo apaga llamas, fuego y enfria materiales más calientes que la temperatura ambiente. Un punto de Extinguir puede apagar una vela, una linterna o una pequeña antorcha; 2 puntos pueden apagar un fuego de campamento; 3 puntos una hoguera, etc. Los fuegos extinguidos permanecerán apagados y deben volver a encenderse."
+        },
+        {
+            "nombre": "Rostro de lanbril",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A ti mismo",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este hechizo cambia la cara y ropas del usuario, dándole un aspecto, totalmente corriente y fácil de olvidar, por lo que el lanzador de este conjuro pasará fácilmente desapercibido, especialmente en una multitud. No hay dos usos idénticos de este hechizo que tengan como resultado el mismo rostro. Una tirada de Buscar, permite al observador percibir que el lanzador lleva una ropa mejor (o peor) oculta bajo su atuendo visible. El hechizo no puede cambiar la raza o el sexo del lanzador. Si una hembra troll lanza este conjuro, parecerá una hembra troll diferente pero totalmente corriente."
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": "Este conjuro cura de forma inmediata todo el daño de una localización de golpe a elección del lanzador. Cuando el hechizo expira (o es dispersado) el daño reaparece.\nEste conjuro a menudo se utiliza para mantener a alguien vivo hasta que pueda recibir una curación permanente, pero a menudo también se utiliza para evitar que un enemigo se cure una herida en un momento concreto."
+        },
+        {
+            "nombre":  "Fanatismo",
+            "type": "Espiritual",
+            "puntos": "1 Punto",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        {
+            "nombre":  "Falsa Curación",
+            "type": "Espiritual",
+            "puntos": "2 Puntos",
+            "distancia": "A distancia",
+            "duracion": "Temporal",
+            "uso": "Pasivo",
+            "Description": ""
+        },
+        
+    ]
+}
